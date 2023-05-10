@@ -16,7 +16,7 @@ this package compatible by eloquent and query builder of laravel
     
 # Installation
 
-` composer require srk-grid/gridview `
+` composer require malltina/laravel-gridview `
 
 ` php artisan vendor:publish --provider="SrkGrid\GridView\SrkGridViewProvider" `
 
