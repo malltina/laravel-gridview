@@ -1,0 +1,33 @@
+{
+  "name": "malltina/laravel-gridview",
+  "description": "simple create table compatible by eloquent and query builder of laravel ",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "reza sarlak",
+      "email": "rezasarlak.007@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SrkGrid\\GridView\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "phpoffice/phpspreadsheet": "^1.10"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SrkGrid\\GridView\\SrkGridViewProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9",
+    "laravel/framework": "^6.0"
+  }
+}
